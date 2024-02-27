@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Montserrat:ital,wght@0,300;1,300&display=swap);
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  body {
+    width: 1300px;
+   margin-left: 4%;
+}
+
+.menu {
+    width: 85vw;
+    height: 60vh;
+    padding-top: 5vh;
+
+}
+
+.title {
+    text-align: center;
+    font-family: 'Lexend Zetta';
+    color: #717171;
+    font-size: 4em;
+    animation: fadeIn 7s;
+    font-weight: 100;
+
+}
+
+.nav-bar {
+
+    font-family: 'Lexend Zetta';
+    font-size: 0.8em;
+    text-align: end;
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-top: -110px;
+    
+    border-width: 7px;
+    
+
+
+}
+
+.nav-bar-text {
+    margin-right: 20px;
+    color: #F996CB;
+}
+
+.logo {
+    position: relative;
+    width: 16%;
+    height: 9%;
+    margin-top: -10px;
+    margin-right: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    text-shadow: #F996CB;
+}
+
+a:hover {
+    color: #F996CB;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #717171;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(77, 10, 60);
+    text-decoration: none;
+}

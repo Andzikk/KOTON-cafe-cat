@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Montserrat:ital,wght@0,300;1,300&display=swap);
+@media only screen and (max-width: 1300px) {
+  body {
+    width: 1300px;
+  }
+}
+.logo {
+  position: relative;
+  width: 390px;
+  height: 270px;
+  margin-top: -3%;
+  margin-right: 90%;
+  margin-left: 5%;
+}
+.header-1 {
+  font-family: 'Lexend Zetta';
+  color: #F996CB;
+  font-size: 6vh;
+  margin-top: 7%;
+  margin-left: 120px;
+}
+
+.text-area {
+  font-family: 'Lexend Zetta';
+  color: #F996CB;
+  font-size: 25px;
+  margin-left: 140px;
+}
+.content-area {
+  margin-top: -5%
+}
+.contact {
+  font-size: 20px;
+}
+
+a:link {
+  color: #F996CB;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F996CB;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+
+  background-color: transparent;
+  text-decoration: none;
+}
+.icons {
+ 
+  margin-top: -40%;
+  margin-left: 65%;
+  font-family: 'lexend zetta';
+  font-size: 1.5vh;
+  color: #717171;
+
+}
+.icon {
+  width: 9vw;
+  height: 16vh;
+  padding-right: 250px;
+  
+}
+.button {
+  background-color: #F996CB;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-family: 'Lexend Zetta';
+  width: 550px;
+  height: 80px;
+  margin-top: 45px;
+  margin-left: 150px;
+  border-radius: 45px;
+  box-shadow: 0 12px 16px 0 rgba(111, 11, 114, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  text-align: center;
+  transition-duration: 0.8s;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #F8E1E1;
+  color: #F996CB;
+
+  box-shadow: 0 12px 16px 0 rgba(111, 11, 114, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+
+
+}
+
+.button:after {
+  text-decoration: none;
+  content: "";
+  display: block;
+  position: absolute;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+
+
+.footer {
+  display: inline-flex;
+  width: 50px;
+  height: 20px;
+  margin-top: 100px;
+}
+
+.container {
+  margin-left: 90%;
+}
+
+#social-media {
+  color: #F996CB;
+}
+#googleMap {
+  background-color: aliceblue;
+  width:300px;
+  height:300px;
+}

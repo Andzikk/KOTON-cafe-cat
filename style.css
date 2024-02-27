@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Montserrat:ital,wght@0,300;1,300&display=swap);
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(0);
+        opacity: 1;
+    }}
+    @keyframes slide-in-left {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }}
+
+body {
+    width: 80%;
+    margin-left: 10%
+}
+
+.koton {
+    width: 230px;
+    height: 150x;
+    margin-top: -9%;
+   
+
+}
+
+.navbar-container {
+    margin-left: 55%;
+    margin-top: 3%
+}
+.nav-bar {
+
+    margin-right: 20px; 
+    font-family: 'Lexend Zetta';
+    font-size: 0.8em;
+    text-align: end;
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-top: 15px;
+    color: #717171;
+    border-width: 7px;
+
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #F996CB;
+    text-shadow: #F996CB;
+}
+
+a:hover {
+    color: #F996CB;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F996CB;
+    text-decoration: none;
+}
+
+a:active {
+    color: #F996CB;
+    text-decoration: none;
+}
+
+.Kazimierz,
+.Henryk,
+.Dyzio,
+.Franciszek {
+    width: 45vh;
+    height: 70vh;
+    margin-left: 3%;
+
+
+}
+
+
+.photos {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+
+}
+
+.Kazimierz:hover {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(12px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Kazimierz:active {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(12px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Henryk:hover {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Henryk:active {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Dyzio:hover {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Dyzio:active {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Franciszek:hover {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.Franciszek:active {
+
+    transform: matrix(1.1);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    background-color: #363636;
+}
+
+.header_0 {
+    font-size: 5.5vh;
+    color: #363636;
+    text-align: center;
+    font-family: "Lexend Zetta";
+    font-weight: 100;
+    animation: fadeIn 5s;
+    margin-top: -5px;
+
+}
+
+.o {
+    color: #F996CB;
+}
+.display-side {
+    padding-top: -20%;
+}
+
+.display-right {
+    margin-left: 95%;
+}
+
+.header_1 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: "Lexend Zetta";
+    opacity: 75%;
+    font-weight: 100;
+    animation: fadeIn 5s;
+}
+
+
+.coloring-space {
+background-color: #F996CB;
+opacity: 80%;
+width: 100%;
+height: 250px;
+animation: slide-in 2s ease-out;
+margin-left: -13%;
+border-radius: 0px 50px 50px 0px; 
+}
+
+.coloring-space-right { background-color: #F996CB;
+opacity: 80%;
+width: 100%;
+height: 200px;
+animation: slide-in-left 2s ease-out;
+margin-left: 13%;
+border-radius: 50px 0px 0px 50px; 
+}
+
+.about-cats {
+    padding-left: 15%;
+    padding-top: 0.5%;
+    animation: slide-in 2s;
+    font-family: "Lexend Zetta";
+    width: 65%;
+    height: 25%;
+    color: #ffffff;
+    opacity: 80%;
+    font-weight: 100;
+    font-size: 2.5vh
+}
+.cozy-space {
+    font-family: "Lexend Zetta";
+    width: 65%;
+    height: 20%;
+    color: #ffffff;
+    opacity: 80%;
+    font-weight: 100;
+    font-size: 2.5vh;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-left: 12%;
+  
+}
+.products {
+    padding-left: 15%;
+    padding-top: 2%;
+    animation: slide-in 5s;
+    font-family: "Lexend Zetta";
+    width: 65%;
+    height: 25%;
+    color: #ffffff;
+    opacity: 80%;
+    font-weight: 100;
+    font-size: 2.5vh
+}
+.header_2 {
+    font-size: 8vh;
+    text-align: center;
+    font-family: "Lexend Zetta";
+    opacity: 75%;
+    font-weight: 100;
+    animation: fadeIn 5s;
+}
+.logo {
+
+    width: 76%;
+    margin-left: 12%;
+
+}
+
+.description {
+    position: relative;
+    display: inline-block;
+
+}
+
+.description p {
+    display: none;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    background-color: transparent;
+    opacity:80%;
+    color: #fff;
+    padding: 10px;
+    bottom: 50%;
+    left: 95%;
+    transform: translateX(-100%);
+    font-family: 'lexend zetta';   
+    font-size: 1vh;
+}
+.description img {
+    transition: filter 0.3 ease;
+}
+.description img:hover {
+    filter: blur(2px);
+}
+
+
+
+
+.image-overlay {
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    display: none;
+   
+}
+
+.description:hover .image-overlay { width: 250px;
+    height: 50px;
+    display: block;
+}
+.coffee {
+    width: 300px;
+    height: 300px;
+    margin-left: 80%;
+    margin-bottom: -4%;
+    border-radius: 50%;
+
+}
+
+
+.flag {
+    width: 165px;
+    height: 40px;
+    border-color:#F996CB;
+    background-color: #F996CB;
+    background-blend-mode:multiply;
+    border-radius: 30px ;
+    margin-left: -45%;
+    margin-bottom: -6%;
+    padding-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(111, 11, 114, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .flag-pl, .flag-cat {
+    width: 80px;
+    height:60px;
+ }
